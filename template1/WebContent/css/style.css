@@ -1,0 +1,179 @@
+@CHARSET "UTF-8";
+body{
+    font-family:'メイリオ','Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+/*------------------box2----------------------*/
+.box2{
+    background-color: skyblue;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color:lightgrey;
+}
+
+.menu ul:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.menu li{
+    float: left;
+    width: 150px;
+}
+ 
+/*--------------------box3--------------------*/
+.box3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.kiji h1{
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    border-bottom: solid 2px black;
+    border-left: solid 4px black;
+}
+
+.kiji p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.kiji{
+    max-width:100%;
+    height:auto;
+}
+.kiji img{
+    width:100%;
+    height:400px;
+    list-style-type: none;
+}
+
+.time{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.time i{
+    margin-right:5px;
+    color: bisque;
+    font-size: 20px;
+}
+
+/*--------------------box4-----------------*/
+.box4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sidemenu{
+    margin-bottom: 30px;
+}
+
+.sidemenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidemenu li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sidemenu li a:hover{
+    background-color: #F3F3F3;
+}
+
+.sidemenu h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: dotted 2px gray;
+    font-size: 20px;
+}
+
+/*--------------koukoku-----------*/
+.koukoku{
+    margin-bottom: 30px;
+}
+
+.koukoku ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.koukoku li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.koukoku li a:hover{
+    background-color: #F3F3F3;
+}
+
+.koukoku h1{
+    margin-top 0;
+    margin-bottom: 0;
+    border-bottom: dotted 2px gray;
+    font-size: 20px;
+}
+
+/*------------------copyright-----------------*/
+.copyright{
+    height: 60px;
+    line-height: 55px;
+    background-color: skyblue;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;"WebContent/css/style.css"
+}
+    
+    
+    
+    
+@media (min-width: 763px){
+    
+.boxA:after{
+    content: "";
+    display: block;
+    clear: both;
+        
+    }
+.box3{
+        float: left;
+        width: 70%;
+        padding-right: 50px;
+        box-sizing: border-box;
+}
+
+.box4{
+    float: left;
+    width: 30%;
+}    
+}
